@@ -11,6 +11,19 @@
 		055E46DE29B367DE00E0C01D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055E46DD29B367DE00E0C01D /* ContentView.swift */; };
 		055E46E029B367E000E0C01D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 055E46DF29B367E000E0C01D /* Assets.xcassets */; };
 		055E46E329B367E000E0C01D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 055E46E229B367E000E0C01D /* Preview Assets.xcassets */; };
+		055E46F429B3691500E0C01D /* vm_unaligned_copy_switch_race.c in Sources */ = {isa = PBXBuildFile; fileRef = 055E46EE29B3691500E0C01D /* vm_unaligned_copy_switch_race.c */; };
+		055E46F529B3691500E0C01D /* helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 055E46EF29B3691500E0C01D /* helpers.m */; };
+		055E46F629B3691500E0C01D /* grant_full_disk_access.m in Sources */ = {isa = PBXBuildFile; fileRef = 055E46F129B3691500E0C01D /* grant_full_disk_access.m */; };
+		055E470329B3694C00E0C01D /* StatusSetter14.m in Sources */ = {isa = PBXBuildFile; fileRef = 055E46F929B3694C00E0C01D /* StatusSetter14.m */; };
+		055E470429B3694C00E0C01D /* StatusManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 055E46FA29B3694C00E0C01D /* StatusManager.m */; };
+		055E470529B3694C00E0C01D /* StatusSetter15.m in Sources */ = {isa = PBXBuildFile; fileRef = 055E46FC29B3694C00E0C01D /* StatusSetter15.m */; };
+		055E470629B3694C00E0C01D /* StatusSetter16.m in Sources */ = {isa = PBXBuildFile; fileRef = 055E46FD29B3694C00E0C01D /* StatusSetter16.m */; };
+		055E470729B3694C00E0C01D /* StatusSetter16_1.m in Sources */ = {isa = PBXBuildFile; fileRef = 055E470029B3694C00E0C01D /* StatusSetter16_1.m */; };
+		055E470A29B36A7B00E0C01D /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055E470929B36A7B00E0C01D /* LocationManager.swift */; };
+		055E470C29B36AC400E0C01D /* BackgroundFileUpdaterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055E470B29B36AC400E0C01D /* BackgroundFileUpdaterController.swift */; };
+		055E470E29B36B1600E0C01D /* Public.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055E470D29B36B1600E0C01D /* Public.swift */; };
+		055E471229B36F3E00E0C01D /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055E471129B36F3E00E0C01D /* Alert.swift */; };
+		055E471429B36F7500E0C01D /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055E471329B36F7500E0C01D /* String.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +33,30 @@
 		055E46DF29B367E000E0C01D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		055E46E229B367E000E0C01D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		055E46E929B3686300E0C01D /* COWStatusCrumb.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = COWStatusCrumb.entitlements; sourceTree = "<group>"; };
+		055E46EA29B368C800E0C01D /* COWStatusCrumb-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "COWStatusCrumb-Bridging-Header.h"; sourceTree = "<group>"; };
+		055E46EE29B3691500E0C01D /* vm_unaligned_copy_switch_race.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = vm_unaligned_copy_switch_race.c; path = ../../../../StatusMagic/StatusMagic/Exploit/vm_unaligned_copy_switch_race.c; sourceTree = "<group>"; };
+		055E46EF29B3691500E0C01D /* helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = helpers.m; path = ../../../../StatusMagic/StatusMagic/Exploit/helpers.m; sourceTree = "<group>"; };
+		055E46F029B3691500E0C01D /* vm_unaligned_copy_switch_race.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vm_unaligned_copy_switch_race.h; path = ../../../../StatusMagic/StatusMagic/Exploit/vm_unaligned_copy_switch_race.h; sourceTree = "<group>"; };
+		055E46F129B3691500E0C01D /* grant_full_disk_access.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = grant_full_disk_access.m; path = ../../../../StatusMagic/StatusMagic/Exploit/grant_full_disk_access.m; sourceTree = "<group>"; };
+		055E46F229B3691500E0C01D /* grant_full_disk_access.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = grant_full_disk_access.h; path = ../../../../StatusMagic/StatusMagic/Exploit/grant_full_disk_access.h; sourceTree = "<group>"; };
+		055E46F329B3691500E0C01D /* helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = helpers.h; path = ../../../../StatusMagic/StatusMagic/Exploit/helpers.h; sourceTree = "<group>"; };
+		055E46F829B3694C00E0C01D /* StatusManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusManager.h; sourceTree = "<group>"; };
+		055E46F929B3694C00E0C01D /* StatusSetter14.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusSetter14.m; sourceTree = "<group>"; };
+		055E46FA29B3694C00E0C01D /* StatusManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusManager.m; sourceTree = "<group>"; };
+		055E46FB29B3694C00E0C01D /* StatusSetter16_1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusSetter16_1.h; sourceTree = "<group>"; };
+		055E46FC29B3694C00E0C01D /* StatusSetter15.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusSetter15.m; sourceTree = "<group>"; };
+		055E46FD29B3694C00E0C01D /* StatusSetter16.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusSetter16.m; sourceTree = "<group>"; };
+		055E46FE29B3694C00E0C01D /* StatusSetter14.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusSetter14.h; sourceTree = "<group>"; };
+		055E46FF29B3694C00E0C01D /* StatusSetter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusSetter.h; sourceTree = "<group>"; };
+		055E470029B3694C00E0C01D /* StatusSetter16_1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusSetter16_1.m; sourceTree = "<group>"; };
+		055E470129B3694C00E0C01D /* StatusSetter15.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusSetter15.h; sourceTree = "<group>"; };
+		055E470229B3694C00E0C01D /* StatusSetter16.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusSetter16.h; sourceTree = "<group>"; };
+		055E470929B36A7B00E0C01D /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		055E470B29B36AC400E0C01D /* BackgroundFileUpdaterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundFileUpdaterController.swift; sourceTree = "<group>"; };
+		055E470D29B36B1600E0C01D /* Public.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Public.swift; sourceTree = "<group>"; };
+		055E470F29B36E3800E0C01D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		055E471129B36F3E00E0C01D /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		055E471329B36F7500E0C01D /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,11 +89,18 @@
 		055E46DA29B367DE00E0C01D /* COWStatusCrumb */ = {
 			isa = PBXGroup;
 			children = (
+				055E471029B36F2E00E0C01D /* Extensions */,
+				055E470F29B36E3800E0C01D /* Info.plist */,
+				055E470829B36A6400E0C01D /* Controllers */,
+				055E46F729B3692B00E0C01D /* Status Manager */,
+				055E46ED29B368DF00E0C01D /* Exploit */,
 				055E46E929B3686300E0C01D /* COWStatusCrumb.entitlements */,
 				055E46DB29B367DE00E0C01D /* COWStatusCrumbApp.swift */,
 				055E46DD29B367DE00E0C01D /* ContentView.swift */,
 				055E46DF29B367E000E0C01D /* Assets.xcassets */,
 				055E46E129B367E000E0C01D /* Preview Content */,
+				055E46EA29B368C800E0C01D /* COWStatusCrumb-Bridging-Header.h */,
+				055E470D29B36B1600E0C01D /* Public.swift */,
 			);
 			path = COWStatusCrumb;
 			sourceTree = "<group>";
@@ -67,6 +111,55 @@
 				055E46E229B367E000E0C01D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		055E46ED29B368DF00E0C01D /* Exploit */ = {
+			isa = PBXGroup;
+			children = (
+				055E46F229B3691500E0C01D /* grant_full_disk_access.h */,
+				055E46F129B3691500E0C01D /* grant_full_disk_access.m */,
+				055E46F329B3691500E0C01D /* helpers.h */,
+				055E46EF29B3691500E0C01D /* helpers.m */,
+				055E46EE29B3691500E0C01D /* vm_unaligned_copy_switch_race.c */,
+				055E46F029B3691500E0C01D /* vm_unaligned_copy_switch_race.h */,
+			);
+			path = Exploit;
+			sourceTree = "<group>";
+		};
+		055E46F729B3692B00E0C01D /* Status Manager */ = {
+			isa = PBXGroup;
+			children = (
+				055E46F829B3694C00E0C01D /* StatusManager.h */,
+				055E46FA29B3694C00E0C01D /* StatusManager.m */,
+				055E46FF29B3694C00E0C01D /* StatusSetter.h */,
+				055E46FE29B3694C00E0C01D /* StatusSetter14.h */,
+				055E46F929B3694C00E0C01D /* StatusSetter14.m */,
+				055E470129B3694C00E0C01D /* StatusSetter15.h */,
+				055E46FC29B3694C00E0C01D /* StatusSetter15.m */,
+				055E46FB29B3694C00E0C01D /* StatusSetter16_1.h */,
+				055E470029B3694C00E0C01D /* StatusSetter16_1.m */,
+				055E470229B3694C00E0C01D /* StatusSetter16.h */,
+				055E46FD29B3694C00E0C01D /* StatusSetter16.m */,
+			);
+			path = "Status Manager";
+			sourceTree = "<group>";
+		};
+		055E470829B36A6400E0C01D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				055E470929B36A7B00E0C01D /* LocationManager.swift */,
+				055E470B29B36AC400E0C01D /* BackgroundFileUpdaterController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		055E471029B36F2E00E0C01D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				055E471129B36F3E00E0C01D /* Alert.swift */,
+				055E471329B36F7500E0C01D /* String.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -101,6 +194,7 @@
 				TargetAttributes = {
 					055E46D729B367DE00E0C01D = {
 						CreatedOnToolsVersion = 14.2;
+						LastSwiftMigration = 1420;
 					};
 				};
 			};
@@ -140,7 +234,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				055E46DE29B367DE00E0C01D /* ContentView.swift in Sources */,
+				055E470C29B36AC400E0C01D /* BackgroundFileUpdaterController.swift in Sources */,
+				055E470429B3694C00E0C01D /* StatusManager.m in Sources */,
+				055E470329B3694C00E0C01D /* StatusSetter14.m in Sources */,
+				055E470E29B36B1600E0C01D /* Public.swift in Sources */,
+				055E470A29B36A7B00E0C01D /* LocationManager.swift in Sources */,
+				055E471229B36F3E00E0C01D /* Alert.swift in Sources */,
 				055E46DC29B367DE00E0C01D /* COWStatusCrumbApp.swift in Sources */,
+				055E470529B3694C00E0C01D /* StatusSetter15.m in Sources */,
+				055E470629B3694C00E0C01D /* StatusSetter16.m in Sources */,
+				055E46F629B3691500E0C01D /* grant_full_disk_access.m in Sources */,
+				055E46F429B3691500E0C01D /* vm_unaligned_copy_switch_race.c in Sources */,
+				055E471429B36F7500E0C01D /* String.swift in Sources */,
+				055E46F529B3691500E0C01D /* helpers.m in Sources */,
+				055E470729B3694C00E0C01D /* StatusSetter16_1.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +373,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = COWStatusCrumb/COWStatusCrumb.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -273,11 +381,13 @@
 				DEVELOPMENT_TEAM = L2CJ78AL3T;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = COWStatusCrumb/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -286,6 +396,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.fku.COWStatusCrumb;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "COWStatusCrumb/COWStatusCrumb-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -296,6 +408,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = COWStatusCrumb/COWStatusCrumb.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -303,11 +416,13 @@
 				DEVELOPMENT_TEAM = L2CJ78AL3T;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = COWStatusCrumb/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -316,6 +431,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.fku.COWStatusCrumb;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "COWStatusCrumb/COWStatusCrumb-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
